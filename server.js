@@ -17,3 +17,6 @@ bookRoutes(app)
 
 // 4. THe port where the server will be started on
 app.listen(port, () => console.log(`EXPRESS SERVER RUNING ON ${port}`))
+
+// WHEN STARTING APP NPM RUN START IN '/PET-SHELTER' TO START SERVER CONNECTION TO MONGODB
+// THEN IN NEW TERMINAL CD CLIENT THEN NPM RUN START REACT APP
