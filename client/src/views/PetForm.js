@@ -33,19 +33,7 @@ const PetForm = () => {
     return (
         <body>
             <form onSubmit={submitHandler}>
-            <nav>
-                <div class="navTitle">
-                    <img src="./images/assets/leaf.png" alt="EasyBay Logo"></img>
-                    <h1>EasyBay</h1>            
-                </div>
-                   
-                <div class="searchBar">
-                    <input type="text" class="searchBox" placeholder="Search for anything"></input>
-                    <a id="search" href="#"><img src="./images/assets/search-dark.png" alt="Search"></img></a>
-                </div>
-                <a href="#"><input type="button" class="btn" value="Sign In" id="loginButton"></input></a>
-                <a id="cart" href="#"><img class="navIcon" src="./images/assets/cart-dark.png" alt="Shopping Cart"  onclick="cartClicked()"></img><span id="cartCount"></span></a>
-            </nav>
+            
                 <p>
                     Pet Name:<br />
                     <input 

@@ -16,11 +16,6 @@ const PetList = (props) => {
 
     return (
         <div>
-            <button>
-            <Link to = {"/"}><h1>Pet Shelter</h1>
-            </Link>
-            
-            </button>
             <h3> These pets are looking for a good home</h3>
             <h4><u>Name |   Type |  Actions</u></h4>
             {props.pet.map( (pet, i) =>
